@@ -20,6 +20,10 @@ repositories {
     maven("https://repo.lukasa.lt/repository/maven-public/") // packet wrapper
     maven("https://repo.minebench.de/") // minedown adventure
 }
+configurations.all {
+    exclude(group = "org.spigotmc", module = "spigot-api")
+    exclude(group = "org.bukkit", module = "bukkit")
+}
 
 dependencies {
     compileOnly(project(":api"))
@@ -34,7 +38,7 @@ dependencies {
     // papi
     compileOnly("me.clip:placeholderapi:${rootProject.properties["placeholder_api_version"]}")
     // server
-    compileOnly("dev.folia:folia-api:${rootProject.properties["paper_version"]}-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:${rootProject.properties["paper_version"]}")
     // vault
     compileOnly("com.github.MilkBowl:VaultAPI:${rootProject.properties["vault_version"]}")
     // season

@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     // platform
-    compileOnly("dev.folia:folia-api:${rootProject.properties["paper_version"]}-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:${rootProject.properties["paper_version"]}")
     // subprojects
     implementation(project(":api")) {
         exclude("dev.dejvokep", "boosted-yaml")
