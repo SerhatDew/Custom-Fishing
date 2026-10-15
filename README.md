@@ -11,7 +11,7 @@
 ![GitHub](https://img.shields.io/github/license/Xiao-MoMi/Custom-Fishing)
 
 ## 📌 About CustomFishing
-CustomFishing is a **Paper plugin** designed to provide a variety of **fishing minigames** and a powerful **condition and action system**. It introduces a unique **weight system**, offering unparalleled customization while maintaining optimal performance.
+CustomFishing is a **Paper plugin** (with Java 25 & Paper 26.2+ support) designed to provide a variety of **fishing minigames** and a powerful **condition and action system**. It introduces a unique **weight system**, offering unparalleled customization while maintaining optimal performance.
 
 ### 🔥 Key Features:
 - Extensive **customization** options for fishing mechanics.
@@ -23,7 +23,7 @@ CustomFishing is a **Paper plugin** designed to provide a variety of **fishing m
 ## 🔧 How to Build
 
 ### 💻 Command Line
-1. Install **JDK 17 & 21**.
+1. Install **JDK 25** (or compatible toolchain).
 2. Open a terminal and navigate to the project directory.
 3. Run:
 
