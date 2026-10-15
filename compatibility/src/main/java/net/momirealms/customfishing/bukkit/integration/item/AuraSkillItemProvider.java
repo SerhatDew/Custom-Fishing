@@ -175,7 +175,6 @@ public class AuraSkillItemProvider implements ItemProvider {
         giveXp(player, loot, source, skill);
     }
 
-    @Nullable
     public SkillSource<FishingXpSource> getSource(ItemStack item) {
         for (SkillSource<FishingXpSource> entry : plugin.getSkillManager().getSourcesOfType(FishingXpSource.class)) {
             if (plugin.getItemRegistry().passesFilter(item, entry.source().getItem(), entry.skill())) { // Return source that passes item filter
